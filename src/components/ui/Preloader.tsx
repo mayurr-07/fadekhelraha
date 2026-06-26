@@ -160,29 +160,29 @@ export default function Preloader({ onComplete, onExitStart }: PreloaderProps) {
                   <svg viewBox="0 0 120 80" className="w-full h-full fill-none stroke-current" xmlns="http://www.w3.org/2000/svg">
                     {/* Controller Body Silhouette */}
                     <path d="M25 15 C45 10, 75 10, 95 15 C105 18, 115 30, 112 50 C109 68, 100 78, 92 76 C85 74, 80 62, 75 58 C68 53, 52 53, 45 58 C40 62, 35 74, 28 76 C20 78, 11 68, 8 50 C5 30, 15 18, 25 15 Z" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    
+
                     {/* Inner Body Glow Line */}
                     <path d="M28 18 C46 13, 74 13, 92 18 C101 21, 109 32, 107 49 C104 65, 96 73, 90 71 C84 69, 79 59, 75 55 C68 50, 52 50, 45 55 C41 59, 36 69, 30 71 C24 73, 16 65, 13 49 C11 32, 19 21, 28 18 Z" strokeWidth="0.5" strokeDasharray="4 4" opacity="0.5" />
 
                     {/* D-Pad (Left) - Corrected Symmetric Path */}
                     <path d="M26 34 v-6 h4 v6 h6 v4 h-6 v6 h-4 v-6 h-6 v-4 z" fill="currentColor" opacity="0.1" />
                     <path d="M26 34 v-6 h4 v6 h6 v4 h-6 v6 h-4 v-6 h-6 v-4 z" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" />
-                    
+
                     {/* Action Buttons Background (Right) */}
                     <circle cx="92" cy="36" r="14" strokeWidth="0.5" strokeDasharray="2 2" opacity="0.4" />
-                    
+
                     {/* Triangle (Top) */}
                     <circle cx="92" cy="26" r="3.5" strokeWidth="0.8" />
                     <path d="M92 24.5 L94 27.5 L90 27.5 Z" strokeWidth="0.6" fill="currentColor" opacity="0.6" />
-                    
+
                     {/* Square (Left) */}
                     <circle cx="82" cy="36" r="3.5" strokeWidth="0.8" />
                     <rect x="80.5" y="34.5" width="3" height="3" strokeWidth="0.6" fill="currentColor" opacity="0.6" />
-                    
+
                     {/* Circle (Right) */}
                     <circle cx="102" cy="36" r="3.5" strokeWidth="0.8" />
                     <circle cx="102" cy="36" r="1.5" strokeWidth="0.6" fill="currentColor" opacity="0.6" />
-                    
+
                     {/* Cross (Bottom) */}
                     <circle cx="92" cy="46" r="3.5" strokeWidth="0.8" />
                     <path d="M90.5 44.5 L93.5 47.5 M93.5 44.5 L90.5 47.5" strokeWidth="0.8" />
@@ -203,7 +203,7 @@ export default function Preloader({ onComplete, onExitStart }: PreloaderProps) {
 
                     {/* Top Neon LED Indicator Bar */}
                     <path d="M52 13 h16" strokeWidth="3" strokeLinecap="round" stroke="currentColor" opacity="0.8" />
-                    
+
                     {/* Start/Select Buttons */}
                     <path d="M38 28 L42 26 L42 30 Z" strokeWidth="0.5" fill="currentColor" opacity="0.5" />
                     <path d="M82 28 L78 26 L78 30 Z" strokeWidth="0.5" fill="currentColor" opacity="0.5" />

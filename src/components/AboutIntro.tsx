@@ -10,7 +10,7 @@ const parseStatValue = (val: string) => {
   return { num, suffix };
 };
 
-const useCounter = (target: string, start: boolean, duration: number = 450) => {
+const useCounter = (target: string, start: boolean, duration: number = 1400) => {
   const [display, setDisplay] = useState(() => {
     const { suffix } = parseStatValue(target);
     return `0${suffix}`;
